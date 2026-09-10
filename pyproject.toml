@@ -1,0 +1,9 @@
+[project]
+name = "arpan-profile"
+version = "0.1.0"
+description = "Engineering Profile & Portfolio for Arpan Chatterjee"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "zensical>=0.0.60",
+]
