@@ -1,0 +1,145 @@
+/* Custom styles for Arpan Chatterjee's Profile */
+
+.profile-hero {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.profile-hero h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+}
+
+.profile-hero .subtitle {
+  font-size: 1.15rem;
+  color: var(--md-default-fg-color--light);
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.contact-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  background-color: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.85rem;
+  text-decoration: none !important;
+  color: var(--md-default-fg-color) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-pill:hover {
+  border-color: var(--md-primary-fg-color);
+  background-color: var(--md-accent-fg-color--transparent);
+  transform: translateY(-1px);
+}
+
+/* Metric Cards Grid */
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.metric-card {
+  padding: 1.25rem;
+  border-radius: 12px;
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.metric-card .metric-number {
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.35rem;
+}
+
+.metric-card .metric-label {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Tech tag pills */
+.tag-pill {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  margin: 0.15rem 0.25rem 0.15rem 0;
+  border-radius: 6px;
+  background-color: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+}
+
+.tag-pill.primary {
+  background-color: rgba(33, 150, 243, 0.12);
+  border-color: rgba(33, 150, 243, 0.3);
+  color: #1976d2;
+}
+
+[data-md-color-scheme="slate"] .tag-pill.primary {
+  background-color: rgba(33, 150, 243, 0.2);
+  color: #64b5f6;
+}
+
+/* Experience company header */
+.experience-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px dashed var(--md-default-fg-color--lightest);
+}
+
+.experience-item:last-child {
+  border-bottom: none;
+}
+
+.role-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.role-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.role-meta {
+  font-size: 0.88rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.company-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.5rem;
+}
