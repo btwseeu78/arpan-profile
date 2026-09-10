@@ -1,5 +1,9 @@
 /* Custom styles for Arpan Chatterjee's Profile */
 
+.md-grid {
+  max-width: 1400px;
+}
+
 .profile-hero {
   margin-top: 1rem;
   margin-bottom: 2rem;

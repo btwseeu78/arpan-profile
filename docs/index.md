@@ -1,6 +1,9 @@
 ---
 title: Arpan Chatterjee | Senior Platform Engineer
 description: Senior Platform Engineer with 9 years of experience architecting and operating enterprise-scale Kubernetes platforms, cloud infrastructure, and GitOps delivery pipelines.
+hide:
+  - navigation
+  - path
 ---
 
 <div class="profile-hero">
