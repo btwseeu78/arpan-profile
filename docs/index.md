@@ -10,9 +10,6 @@ description: Senior Platform Engineer with 9 years of experience architecting an
     <a class="contact-pill" href="mailto:arpan.b.chatterjee@gmail.com">
       📧 arpan.b.chatterjee@gmail.com
     </a>
-    <a class="contact-pill" href="tel:+919635028428">
-      📱 +91-9635028428
-    </a>
     <span class="contact-pill">
       📍 Kolkata, India
     </span>

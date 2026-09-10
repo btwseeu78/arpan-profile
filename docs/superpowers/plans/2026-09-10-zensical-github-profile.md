@@ -99,7 +99,7 @@ Add styles for:
 - Produces: Complete markdown source for the portfolio
 
 - [ ] **Step 1: Write Hero & Summary Section**
-Name, title (Senior Platform Engineer), Kolkata, links to GitHub, LinkedIn, Medium, email, phone, and 4 metric cards (9+ Years, 35 GKE Clusters, 10,000+ Workloads, 99.9% Uptime).
+Name, title (Senior Platform Engineer), Kolkata, links to GitHub, LinkedIn, Medium, email, and 4 metric cards (9+ Years, 35 GKE Clusters, 10,000+ Workloads, 99.9% Uptime).
 
 - [ ] **Step 2: Write Core Competencies Matrix**
 Categorized tech stack: Kubernetes & Containers, IaC & Cloud, GitOps & Delivery, Observability & FinOps, Security & Compliance, Automation/MCP.

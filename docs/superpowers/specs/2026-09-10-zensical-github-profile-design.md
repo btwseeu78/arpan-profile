@@ -55,7 +55,7 @@ The single page will feature structured sections:
 ### 4.1 Hero & Executive Overview
 - Name: **Arpan Chatterjee**
 - Title: **Senior Platform Engineer | Kubernetes, Cloud Infrastructure & Migration Specialist**
-- Contact & Socials: Email (`arpan.b.chatterjee@gmail.com`), Phone (`+91-9635028428`), Kolkata, India. Links to GitHub (`github.com/btwseeu78`), LinkedIn (`linkedin.com/in/arpan-chatterjee-85479880`), Medium (`btwseeu78.medium.com`).
+- Contact & Socials: Email (`arpan.b.chatterjee@gmail.com`), Kolkata, India. Links to GitHub (`github.com/btwseeu78`), LinkedIn (`linkedin.com/in/arpan-chatterjee-85479880`), Medium (`btwseeu78.medium.com`).
 - **Metric Cards Grid:**
   - `9+ Years` Enterprise Infrastructure Experience
   - `35 Clusters` Hyper-Scale Production GKE Fleet
