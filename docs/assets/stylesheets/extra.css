@@ -46,41 +46,71 @@
   transform: translateY(-1px);
 }
 
-/* Metric Cards Grid */
-.grid-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0 2.5rem 0;
+.experience-pill {
+  font-weight: 700;
+  border-color: rgba(33, 150, 243, 0.4);
+  background: rgba(33, 150, 243, 0.08);
+  color: var(--md-primary-fg-color) !important;
 }
 
-.metric-card {
-  padding: 1.25rem;
+/* Core Skills Keyword Cloud */
+.skills-cloud-container {
+  margin: 1.5rem 0 2rem 0;
+  padding: 1.25rem 1.5rem;
   border-radius: 12px;
-  background: var(--md-code-bg-color);
+  background-color: var(--md-code-bg-color);
   border: 1px solid var(--md-default-fg-color--lightest);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.metric-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--md-primary-fg-color);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-}
-
-.metric-card .metric-number {
-  font-size: 1.9rem;
-  font-weight: 800;
-  line-height: 1.1;
-  color: var(--md-primary-fg-color);
-  margin-bottom: 0.35rem;
-}
-
-.metric-card .metric-label {
-  font-size: 0.88rem;
-  font-weight: 500;
+.skills-cloud-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   color: var(--md-default-fg-color--light);
+  margin-bottom: 0.85rem;
+}
+
+.skills-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skill-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+  transition: all 0.2s ease-in-out;
+  cursor: default;
+}
+
+.skill-pill:hover {
+  border-color: var(--md-primary-fg-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.08);
+}
+
+.skill-pill.featured {
+  background-color: rgba(33, 150, 243, 0.08);
+  border-color: rgba(33, 150, 243, 0.3);
+  color: #1976d2;
+}
+
+[data-md-color-scheme="slate"] .skill-pill.featured {
+  background-color: rgba(33, 150, 243, 0.18);
+  border-color: rgba(33, 150, 243, 0.4);
+  color: #64b5f6;
 }
 
 /* Tech tag pills */
