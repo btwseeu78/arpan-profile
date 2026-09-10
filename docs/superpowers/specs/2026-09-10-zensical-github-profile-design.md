@@ -55,12 +55,9 @@ The single page will feature structured sections:
 ### 4.1 Hero & Executive Overview
 - Name: **Arpan Chatterjee**
 - Title: **Senior Platform Engineer | Kubernetes, Cloud Infrastructure & Migration Specialist**
-- Contact & Socials: Email (`arpan.b.chatterjee@gmail.com`), Kolkata, India. Links to GitHub (`github.com/btwseeu78`), LinkedIn (`linkedin.com/in/arpan-chatterjee-85479880`), Medium (`btwseeu78.medium.com`).
-- **Metric Cards Grid:**
-  - `9+ Years` Enterprise Infrastructure Experience
-  - `35 Clusters` Hyper-Scale Production GKE Fleet
-  - `10,000+ Apps` OpenTelemetry Distributed Tracing & GitOps
-  - `99.9% Uptime` Zero Critical CVEs in Production
+- Contact & Metadata Pills: `🎯 9+ Years Experience`, `📍 Kolkata, India`, Email (`arpan.b.chatterjee@gmail.com`), GitHub (`github.com/btwseeu78`), LinkedIn (`linkedin.com/in/arpan-chatterjee-85479880`), Medium (`btwseeu78.medium.com`).
+- **Core Focus & Keyword Skills Strip (replaces large metric boxes for freelance/consulting focus):**
+  - `☸️ Kubernetes` &bull; `⎈ Helm` &bull; `🐙 Argo Ecosystem (ArgoCD, Rollouts, Workflows)` &bull; `🐹 Go (Golang)` &bull; `⚙️ Kubebuilder (Custom Operators)` &bull; `🔀 Gateway API` &bull; `☁️ Terraform & Crossplane` &bull; `📡 OpenTelemetry` &bull; `🚀 Cloud Migration` &bull; `🤖 MCP (Model Context Protocol)`
 
 ### 4.2 Core Competencies Matrix
 - **Kubernetes & Containers:** Kubernetes, Helm, Gateway API, Kubebuilder (Custom Operators), Kueue, Argo Rollouts, Sveltos, Cluster Autoscaler.
