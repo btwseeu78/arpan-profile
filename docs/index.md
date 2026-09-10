@@ -116,22 +116,20 @@ Senior Platform Engineer with **9 years of experience** architecting and operati
   </div>
   <div class="company-name">Renault Nissan Technology and Business Centre India (RNTBCI)</div>
 
-  - **Hyper-Scale Fleet Operations:** Architected and operated an enterprise cloud-native platform spanning **35 GKE clusters**, supporting **200+ projects** and **10,000+ containerized applications**, maintaining **99.9% platform availability**.
-  - **Distributed Observability:** Spearheaded OpenTelemetry instrumentation across 10,000+ workloads for comprehensive end-to-end distributed tracing and centralized logging, reducing Mean Time to Detect (MTTD) by **~40%**.
-  - **Modern Traffic Routing:** Implemented the **Kubernetes Gateway API** to govern **6,000–7,000 application URLs** across clusters, cutting traffic misconfiguration incidents by **~60%** and accelerating tenant onboarding.
-  - **Cloud FinOps Leadership:** Championed cost optimization across all clusters via workload right-sizing and spot instance orchestration, driving a **~30% monthly reduction** in cloud expenditure.
-  - **GitOps Continuous Delivery:** Automated multi-environment delivery pipelines with a unified GitOps stack (**Kargo**, **ArgoCD**, **Flux**, **Argo Rollouts**), reducing deployment cycle lead time from ~3 days to **under 4 hours**.
-  - **Zero-CVE Security Posture:** Enforced runtime vulnerability mitigation and host security with **CrowdStrike Falcon** and **Oligo**, slashing runtime risk exposure by **~50%** with zero critical CVEs in production.
-  - **AI Infrastructure Automation:** Designed and implemented AI-to-infrastructure operational workflows via the **Model Context Protocol (MCP)**, eliminating repetitive manual operations and reducing toil by **~35%**.
+  - Architected and managed a multi-tenant GKE platform across 35 clusters, delivering 99.9% uptime.
+  - Implemented OpenTelemetry instrumentation across 10,000+ workloads, reducing MTTD by ~40%.
+  - Deployed Kubernetes Gateway API to manage 6,000+ routes, reducing traffic misconfigurations by ~60%.
+  - Automated GitOps delivery via Kargo, ArgoCD, Flux, and Argo Rollouts, cutting release cycle time to <4 hours.
+  - Led FinOps optimization with spot orchestration and rightsizing, cutting monthly cloud spend by ~30%.
+  - Built AI-to-infrastructure operational tooling using Model Context Protocol (MCP), cutting manual toil by ~35%.
 
   <div style="margin-top: 0.5rem;">
     <span class="tag-pill primary">Kubernetes (GKE)</span>
     <span class="tag-pill primary">Gateway API</span>
     <span class="tag-pill primary">OpenTelemetry</span>
-    <span class="tag-pill">GitOps (ArgoCD/Flux/Kargo)</span>
+    <span class="tag-pill">ArgoCD &amp; Kargo</span>
     <span class="tag-pill">FinOps</span>
     <span class="tag-pill">MCP</span>
-    <span class="tag-pill">CrowdStrike &amp; Oligo</span>
   </div>
 </div>
 
@@ -142,21 +140,20 @@ Senior Platform Engineer with **9 years of experience** architecting and operati
   </div>
   <div class="company-name">Accenture India</div>
 
-  - **Cloud Workload Migration:** Engineered end-to-end migration of **30+ core services** from legacy on-premises datacenters to cloud Kubernetes using Helm, ArgoCD, and automated cutover plans; accelerated deployment cycle speed by **75%** and reduced environment provisioning time to **<2 hours**.
-  - **Infrastructure as Code:** Built production-grade, modular **Terraform** libraries for GCP, Azure, and on-premises virtualization, reducing infrastructure setup time by **~60%** and eradicating configuration drift.
-  - **Self-Service Platform APIs:** Developed declarative self-service infrastructure APIs utilizing **Crossplane**, enabling product teams to provision cloud resources autonomously and reducing infrastructure ticket queue volume by **~45%**.
-  - **Kubernetes Operator Engineering:** Authored custom Kubernetes Operators in Golang using **Kubebuilder** to automate operational state reconciliation, saving engineering teams **~10 hours weekly**.
-  - **Datadog Observability:** Architected end-to-end Datadog APM and monitoring infrastructure with customized operational dashboards, cutting MTTD by **~35%** and MTTR by **~40%**.
-  - **Governance & Policy as Code:** Instituted cluster-wide policy guardrails with **Open Policy Agent (OPA/Gatekeeper)** across 5 clusters, achieving a **100% compliance pass rate** in enterprise security audits.
+  - Migrated 30+ services from on-prem to Kubernetes with Helm and ArgoCD, reducing environment setup time to <2 hours.
+  - Built reusable multi-cloud Terraform modules (GCP, Azure, on-prem), cutting provisioning time by ~60%.
+  - Designed self-service developer APIs using Crossplane, reducing operations ticket volume by ~45%.
+  - Developed custom Kubernetes Operators in Golang with Kubebuilder, saving ~10 hours/week of manual operations.
+  - Deployed Open Policy Agent (OPA) cluster guardrails, achieving 100% compliance pass rate on security audits.
+  - Implemented Datadog APM and custom dashboards, cutting MTTD by ~35% and MTTR by ~40%.
 
   <div style="margin-top: 0.5rem;">
     <span class="tag-pill primary">Kubernetes Migration</span>
     <span class="tag-pill primary">Crossplane</span>
     <span class="tag-pill primary">Kubebuilder (Go)</span>
     <span class="tag-pill">Terraform</span>
-    <span class="tag-pill">ArgoCD</span>
-    <span class="tag-pill">Datadog</span>
     <span class="tag-pill">OPA / Gatekeeper</span>
+    <span class="tag-pill">Datadog</span>
   </div>
 </div>
 
@@ -167,15 +164,13 @@ Senior Platform Engineer with **9 years of experience** architecting and operati
   </div>
   <div class="company-name">PwC India</div>
 
-  - Managed three high-throughput Kubernetes clusters dedicated to the big data engineering organization, sustaining **99.95% availability** for business-critical processing pipelines handling over **500GB daily**.
-  - Partnered across six cross-functional teams to architect reliable cloud foundations, resilient storage backends, and scheduled compute capacity.
-  - Overhauled platform incident response procedures and authoring automated runbooks, reducing resolution time by **~25%**.
+  - Operated 3 Kubernetes clusters for big data workloads processing 500GB+ daily with 99.95% availability.
+  - Built automated operational runbooks and improved incident response, cutting resolution times by ~25%.
 
   <div style="margin-top: 0.5rem;">
-    <span class="tag-pill primary">Kubernetes Data Platform</span>
+    <span class="tag-pill primary">Kubernetes</span>
     <span class="tag-pill">GCP</span>
-    <span class="tag-pill">Cluster Reliability</span>
-    <span class="tag-pill">Runbook Automation</span>
+    <span class="tag-pill">Data Platform Reliability</span>
   </div>
 </div>
 
@@ -186,14 +181,13 @@ Senior Platform Engineer with **9 years of experience** architecting and operati
   </div>
   <div class="company-name">Tata Consultancy Services (TCS) India</div>
 
-  - Led a 5-engineer team architecting monitoring, dashboarding, and alerting solutions using Datadog across 20+ servers, reducing undetected production incidents by **~45%** within the first 90 days.
-  - Authored comprehensive **Ansible playbooks** for automated patching, security updates, and configuration compliance across 200+ Linux servers, shrinking the patch release cycle from **2 weeks to 3 days**.
+  - Led a 5-member team designing Datadog monitoring across 20+ servers, reducing undetected incidents by ~45%.
+  - Created Ansible automation for fleet patching across 200+ servers, shrinking patch cycles from 2 weeks to 3 days.
 
   <div style="margin-top: 0.5rem;">
     <span class="tag-pill primary">Ansible Automation</span>
     <span class="tag-pill">Datadog</span>
-    <span class="tag-pill">Fleet Patching</span>
-    <span class="tag-pill">Linux Administration</span>
+    <span class="tag-pill">Linux Systems</span>
   </div>
 </div>
 
@@ -204,15 +198,15 @@ Senior Platform Engineer with **9 years of experience** architecting and operati
   </div>
   <div class="company-name">Capgemini India</div>
 
-  - Engineered monitoring strategies and crafted 50+ custom operational alerts for McDonald's Cloud Application, decreasing MTTD for critical production incidents by **~30%**.
-  - Implemented proactive synthetic transaction monitoring across 15+ vital customer user journeys, dropping false-positive alert noise by **~40%**.
-  - Containerized internal services with Docker and configured automated deployments to Kubernetes test clusters using New Relic and Grafana.
+  - Built monitoring strategies and 50+ custom alerts for McDonald's Cloud Application, reducing MTTD by ~30%.
+  - Implemented synthetic monitoring across 15+ user journeys, cutting alert noise by ~40%.
+  - Deployed internal services with Docker and Kubernetes test environments.
 
   <div style="margin-top: 0.5rem;">
     <span class="tag-pill primary">Synthetic Monitoring</span>
     <span class="tag-pill">Docker</span>
     <span class="tag-pill">Kubernetes</span>
-    <span class="tag-pill">New Relic &amp; Grafana</span>
+    <span class="tag-pill">Grafana</span>
   </div>
 </div>
 
