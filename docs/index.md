@@ -7,12 +7,15 @@ description: Senior Platform Engineer with 9 years of experience architecting an
   <h1>Arpan Chatterjee</h1>
   <div class="subtitle">Senior Platform Engineer &bull; Kubernetes, Cloud Infrastructure &amp; Migration Specialist</div>
   <div class="contact-bar">
-    <a class="contact-pill" href="mailto:arpan.b.chatterjee@gmail.com">
-      📧 arpan.b.chatterjee@gmail.com
-    </a>
+    <span class="contact-pill experience-pill">
+      🎯 9+ Years Experience
+    </span>
     <span class="contact-pill">
       📍 Kolkata, India
     </span>
+    <a class="contact-pill" href="mailto:arpan.b.chatterjee@gmail.com">
+      📧 arpan.b.chatterjee@gmail.com
+    </a>
     <a class="contact-pill" href="https://github.com/btwseeu78" target="_blank" rel="noopener">
       💻 GitHub: btwseeu78
     </a>
@@ -25,22 +28,23 @@ description: Senior Platform Engineer with 9 years of experience architecting an
   </div>
 </div>
 
-<div class="grid-cards">
-  <div class="metric-card">
-    <div class="metric-number">9+ Years</div>
-    <div class="metric-label">Enterprise Cloud &amp; Platform Engineering Experience</div>
+<div class="skills-cloud-container">
+  <div class="skills-cloud-header">
+    <span>⚡ Primary Focus &amp; Core Tooling</span>
   </div>
-  <div class="metric-card">
-    <div class="metric-number">35 Clusters</div>
-    <div class="metric-label">Hyper-Scale Multi-Tenant GKE Production Fleet</div>
-  </div>
-  <div class="metric-card">
-    <div class="metric-number">10,000+</div>
-    <div class="metric-label">Applications with OpenTelemetry &amp; GitOps Delivery</div>
-  </div>
-  <div class="metric-card">
-    <div class="metric-number">99.9%</div>
-    <div class="metric-label">Platform Uptime with Zero Critical CVEs in Production</div>
+  <div class="skills-cloud">
+    <span class="skill-pill featured">☸️ Kubernetes</span>
+    <span class="skill-pill featured">⎈ Helm</span>
+    <span class="skill-pill featured">🐙 Argo Ecosystem (ArgoCD, Rollouts, Workflows)</span>
+    <span class="skill-pill featured">🐹 Go (Golang)</span>
+    <span class="skill-pill featured">⚙️ Kubebuilder (Custom Operators)</span>
+    <span class="skill-pill featured">🔀 Kubernetes Gateway API</span>
+    <span class="skill-pill featured">☁️ Crossplane &amp; Terraform</span>
+    <span class="skill-pill">📡 OpenTelemetry</span>
+    <span class="skill-pill">🚀 Cloud &amp; Workload Migration</span>
+    <span class="skill-pill">🤖 MCP (Model Context Protocol)</span>
+    <span class="skill-pill">🛡️ Zero-CVE Hardening &amp; OPA</span>
+    <span class="skill-pill">💾 Velero (DR) &amp; cert-manager</span>
   </div>
 </div>
 
