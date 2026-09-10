@@ -24,8 +24,7 @@ arpan-profile/
 ├── docs/
 │   ├── assets/
 │   │   └── stylesheets/
-│   │       └── extra.css           # Custom styling for metric cards & tags
-│   ├── superpowers/                # Design specs & implementation plans
+│   │       └── extra.css           # Custom styling for skills cloud & badges
 │   └── index.md                    # Main single-page interactive portfolio
 ├── .gitignore                      # Ignore venv, site/ build output
 ├── pyproject.toml                  # Python package configuration
